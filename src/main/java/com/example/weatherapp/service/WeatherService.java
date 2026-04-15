@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestTemplate;
 
+
 @Service
 public class WeatherService {
 
@@ -14,6 +15,7 @@ public class WeatherService {
 
     @Value("${weather.api.key}")
     private String apiKey;
+
 
     @Value("${weather.api.url}")
     private String apiUrl;
